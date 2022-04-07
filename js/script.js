@@ -16,5 +16,5 @@ function calculate () {
   const volume = (Fahrenheit - 32) * 5/9
 
   // output
-  document.getElementById('volume').innerHTML = 'Celsius is: ' + volume.toFixed(0) + ' ℃'
+  document.getElementById('volume').innerHTML = 'Celsius is: ' + volume.toFixed(0) + '℃'
 }
